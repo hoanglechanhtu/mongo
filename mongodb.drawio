@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-09T02:56:12.623Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="NpcmHdGg2u3pRczKPQzK" version="15.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-09T04:31:32.211Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="fGsJB9SxUooQ91CPiwne" version="15.4.3" type="github">
   <diagram id="vCIeHMtV7OoR4bKzs3Se" name="Page-1">
-    <mxGraphModel dx="3009" dy="3111" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2428" dy="2780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,6 +11,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="be_BAzCO2mw0nIDdy5Vo-41" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="be_BAzCO2mw0nIDdy5Vo-1" target="be_BAzCO2mw0nIDdy5Vo-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-111" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;" edge="1" parent="1" source="be_BAzCO2mw0nIDdy5Vo-1" target="be_BAzCO2mw0nIDdy5Vo-110">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="be_BAzCO2mw0nIDdy5Vo-1" value="Mongo" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ea6b66;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
@@ -311,6 +314,15 @@
         </mxCell>
         <mxCell id="be_BAzCO2mw0nIDdy5Vo-108" value="db.iot.updateOne({ &quot;sensor&quot;: r.sensor, &quot;date&quot;: r.date,&#xa;                   &quot;valcount&quot;: { &quot;$lt&quot;: 48 } },&#xa;                         { &quot;$push&quot;: { &quot;readings&quot;: { &quot;v&quot;: r.value, &quot;t&quot;: r.time } },&#xa;                        &quot;$inc&quot;: { &quot;valcount&quot;: 1, &quot;total&quot;: r.value } },&#xa;                 { &quot;upsert&quot;: true })" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-740" y="-1205" width="370" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-113" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;" edge="1" parent="1" source="be_BAzCO2mw0nIDdy5Vo-110" target="be_BAzCO2mw0nIDdy5Vo-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-110" value="Modeling" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#d5739d;fillColor=#e6d0de;strokeColor=#996185;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1120" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-112" value="Attribute pattern" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="690" y="1120" width="140" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
