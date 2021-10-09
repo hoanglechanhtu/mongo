@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-09T05:21:45.070Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="ZvZQs5MvcjlBQsHSfIJI" version="15.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-09T05:22:33.912Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="AtgvCuonzsNs72F7cFYz" version="15.4.3" type="github">
   <diagram id="vCIeHMtV7OoR4bKzs3Se" name="Page-1">
     <mxGraphModel dx="2813" dy="2962" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -784,25 +784,25 @@
         <mxCell id="be_BAzCO2mw0nIDdy5Vo-358" value="Use cases examples" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontStyle=1" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-351">
           <mxGeometry y="140" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="be_BAzCO2mw0nIDdy5Vo-359" value="List of reviews of a product" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-351">
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-359" value="Single view" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-351">
           <mxGeometry x="10" y="170" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="be_BAzCO2mw0nIDdy5Vo-360" value="List of comments of a article" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-351">
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-360" value="Product catalog" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-351">
           <mxGeometry x="10" y="190" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="be_BAzCO2mw0nIDdy5Vo-361" value="Benefits and trade-offs" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontStyle=1" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-351">
           <mxGeometry x="220" y="140" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="be_BAzCO2mw0nIDdy5Vo-362" value="Smaller working set, as often used documents are smaller" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-351">
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-362" value="Easier to implement" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-351">
           <mxGeometry x="230" y="170" width="240" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="be_BAzCO2mw0nIDdy5Vo-363" value="Shorter disk access&amp;nbsp; for bringing in additional documents for most used collection" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-351">
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-363" value="Allow to query across a single collection" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-351">
           <mxGeometry x="230" y="200" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="be_BAzCO2mw0nIDdy5Vo-364" value="More round trips to the server" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-351">
           <mxGeometry x="230" y="230" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="be_BAzCO2mw0nIDdy5Vo-365" value="List of actors in a&amp;nbsp; movie" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-351">
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-365" value="Content management" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-351">
           <mxGeometry x="10" y="220" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="be_BAzCO2mw0nIDdy5Vo-366" value="Want to keep objects in same collection" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-351">
