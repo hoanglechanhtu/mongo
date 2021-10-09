@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-09T02:48:35.016Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="ZdKL2eCiJcFzj4ECK8HV" version="15.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-09T02:50:14.519Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="L5CukD6bTamyajWmG24e" version="15.4.3" type="github">
   <diagram id="vCIeHMtV7OoR4bKzs3Se" name="Page-1">
     <mxGraphModel dx="3009" dy="1942" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -142,6 +142,9 @@
         <mxCell id="be_BAzCO2mw0nIDdy5Vo-85" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;" edge="1" parent="1" source="be_BAzCO2mw0nIDdy5Vo-40" target="be_BAzCO2mw0nIDdy5Vo-82">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-87" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.993;entryY=0.367;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Verdana;" edge="1" parent="1" source="be_BAzCO2mw0nIDdy5Vo-40" target="be_BAzCO2mw0nIDdy5Vo-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="be_BAzCO2mw0nIDdy5Vo-40" value="Commands" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#d5739d;fillColor=#e6d0de;strokeColor=#996185;" vertex="1" parent="1">
           <mxGeometry x="20" y="600" width="140" height="60" as="geometry" />
         </mxCell>
@@ -245,6 +248,15 @@
         </mxCell>
         <mxCell id="be_BAzCO2mw0nIDdy5Vo-83" value="db.collections.find({&quot;state&quot; : &quot;NY&quot;}, {&quot;state&quot;: 1});" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-620" y="-360" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-89" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;" edge="1" parent="1" source="be_BAzCO2mw0nIDdy5Vo-86" target="be_BAzCO2mw0nIDdy5Vo-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-86" value="Sub document" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="-520" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-88" value="db.companies.find({ &quot;relationships.0.person.last_name&quot;: &quot;Zuckerberg&quot; },&#xa;                  { &quot;name&quot;: 1 }).pretty()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-700" y="-520" width="330" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
