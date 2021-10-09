@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-09T05:10:18.277Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="X2IGpmkj5RMa61kGb3qK" version="15.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-09T05:13:33.730Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="i9xnpPWNUnvJi9XUpvAI" version="15.4.3" type="github">
   <diagram id="vCIeHMtV7OoR4bKzs3Se" name="Page-1">
     <mxGraphModel dx="2813" dy="2962" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -628,8 +628,11 @@
         <mxCell id="be_BAzCO2mw0nIDdy5Vo-285" value="Less friendly to BI Tools" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-266">
           <mxGeometry x="230" y="280" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="be_BAzCO2mw0nIDdy5Vo-287" value="Bucket pattern" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-1260" y="1450" width="140" height="60" as="geometry" />
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-308" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;" edge="1" parent="1" source="be_BAzCO2mw0nIDdy5Vo-287" target="be_BAzCO2mw0nIDdy5Vo-292">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-287" value="Schema versioning pattern" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-1290" y="1450" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="be_BAzCO2mw0nIDdy5Vo-288" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="-1470" y="1600" width="500" height="320" as="geometry" />
