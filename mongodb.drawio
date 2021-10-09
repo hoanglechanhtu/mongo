@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-09T05:01:23.198Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="sNLRRIauJmDvvW0rxZZI" version="15.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-09T05:05:15.858Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="fwW7E22pzpmyeiRWsOPk" version="15.4.3" type="github">
   <diagram id="vCIeHMtV7OoR4bKzs3Se" name="Page-1">
     <mxGraphModel dx="3018" dy="3072" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -583,11 +583,11 @@
         <mxCell id="be_BAzCO2mw0nIDdy5Vo-270" value="Solution" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontStyle=1" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-266">
           <mxGeometry x="220" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="be_BAzCO2mw0nIDdy5Vo-271" value="Perform the operation and store the result in the appropriate documents and collection" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-266">
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-271" value="Define the optimal amount of information to group together" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-266">
           <mxGeometry x="226" y="30" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="be_BAzCO2mw0nIDdy5Vo-272" value="If need to redo the operations, keep the source of them" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-266">
-          <mxGeometry x="226" y="70" width="270" height="30" as="geometry" />
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-272" value="Create arrays to store the information in the main object" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-266">
+          <mxGeometry x="226" y="60" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="be_BAzCO2mw0nIDdy5Vo-273" value="Use cases examples" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontStyle=1" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-266">
           <mxGeometry y="140" width="110" height="30" as="geometry" />
@@ -621,6 +621,9 @@
         </mxCell>
         <mxCell id="be_BAzCO2mw0nIDdy5Vo-283" value="Frequent aggregation framework queries" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-266">
           <mxGeometry x="10" y="240" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-284" value="It is basically an embedded 1-N relationship, where you get N documents each having an average of Many/N sub documents" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-266">
+          <mxGeometry x="226" y="100" width="270" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
