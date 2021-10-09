@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-09T05:09:40.221Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="265bqnQfykQp7lsgeERo" version="15.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-09T05:10:18.277Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="X2IGpmkj5RMa61kGb3qK" version="15.4.3" type="github">
   <diagram id="vCIeHMtV7OoR4bKzs3Se" name="Page-1">
     <mxGraphModel dx="2813" dy="2962" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -664,26 +664,23 @@
         <mxCell id="be_BAzCO2mw0nIDdy5Vo-298" value="Benefits and trade-offs" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontStyle=1" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-288">
           <mxGeometry x="220" y="140" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="be_BAzCO2mw0nIDdy5Vo-299" value="Good balance between number of data access and size of data return" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-288">
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-299" value="No downtime needed" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-288">
           <mxGeometry x="230" y="170" width="240" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="be_BAzCO2mw0nIDdy5Vo-300" value="Makes date more manageable" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-288">
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-300" value="Feel in control of the migaration" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-288">
           <mxGeometry x="230" y="200" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="be_BAzCO2mw0nIDdy5Vo-301" value="Easy to prune data" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-288">
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-301" value="Less future technical debt" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-288">
           <mxGeometry x="230" y="220" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="be_BAzCO2mw0nIDdy5Vo-303" value="Upgrading all documents can take hours days or even weeks when dealing with big data" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-288">
           <mxGeometry x="10" y="70" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="be_BAzCO2mw0nIDdy5Vo-304" value="Can lead to poor query results in not designed correctly" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-288">
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-304" value="May need 2 indexes for same field while in migration period" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-288">
           <mxGeometry x="230" y="250" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="be_BAzCO2mw0nIDdy5Vo-305" value="Choose your strategy to migrate the documents" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-288">
           <mxGeometry x="226" y="100" width="270" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="be_BAzCO2mw0nIDdy5Vo-306" value="Less friendly to BI Tools" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-288">
-          <mxGeometry x="230" y="280" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="be_BAzCO2mw0nIDdy5Vo-307" value="Dont want to update all documents" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-288">
           <mxGeometry x="10" y="110" width="200" height="30" as="geometry" />
