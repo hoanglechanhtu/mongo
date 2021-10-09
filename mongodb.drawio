@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-09T04:42:58.421Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="Q8r_J-0NvNP2WBnbeYCD" version="15.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-09T04:43:29.449Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="98Zzs0IPPx6VRziE0Tae" version="15.4.3" type="github">
   <diagram id="vCIeHMtV7OoR4bKzs3Se" name="Page-1">
     <mxGraphModel dx="2428" dy="2780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -376,6 +376,14 @@
         </mxCell>
         <mxCell id="be_BAzCO2mw0nIDdy5Vo-135" value="Ability to qualify the relationship of the original field and value" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-136">
           <mxGeometry x="230" y="210" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-138" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;fontFamily=Verdana;" edge="1" parent="1" source="be_BAzCO2mw0nIDdy5Vo-118">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1045.1428571428573" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-139" value="Can be solved with wildcard index" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="930" width="140" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
