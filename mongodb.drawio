@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-09T04:42:32.037Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="ZWoa_fCszZHhfLTEzQH1" version="15.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-09T04:42:58.421Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="Q8r_J-0NvNP2WBnbeYCD" version="15.4.3" type="github">
   <diagram id="vCIeHMtV7OoR4bKzs3Se" name="Page-1">
     <mxGraphModel dx="2428" dy="2780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -321,53 +321,61 @@
         <mxCell id="be_BAzCO2mw0nIDdy5Vo-110" value="Modeling" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#d5739d;fillColor=#e6d0de;strokeColor=#996185;" vertex="1" parent="1">
           <mxGeometry x="320" y="1120" width="140" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-137" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;" edge="1" parent="1" source="be_BAzCO2mw0nIDdy5Vo-112">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="920" y="1150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="be_BAzCO2mw0nIDdy5Vo-112" value="Attribute pattern" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="690" y="1120" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="be_BAzCO2mw0nIDdy5Vo-118" value="" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;fontFamily=Verdana;dx=220;dy=140;" vertex="1" parent="1">
-          <mxGeometry x="590" y="1310" width="500" height="260" as="geometry" />
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-136" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="920" y="1080" width="500" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="be_BAzCO2mw0nIDdy5Vo-119" value="Problem" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="590" y="1310" width="60" height="30" as="geometry" />
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-118" value="" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;fontFamily=Verdana;dx=220;dy=140;" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-136">
+          <mxGeometry width="500" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="be_BAzCO2mw0nIDdy5Vo-120" value="Lots of similar fields" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="1">
-          <mxGeometry x="600" y="1340" width="150" height="30" as="geometry" />
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-119" value="Problem" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontStyle=1" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-136">
+          <mxGeometry width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="be_BAzCO2mw0nIDdy5Vo-121" value="Want to search across many fields at once" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="1">
-          <mxGeometry x="600" y="1370" width="150" height="30" as="geometry" />
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-120" value="Lots of similar fields" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-136">
+          <mxGeometry x="10" y="30" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="be_BAzCO2mw0nIDdy5Vo-122" value="Fields present on only small set of documents" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="1">
-          <mxGeometry x="600" y="1400" width="150" height="30" as="geometry" />
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-121" value="Want to search across many fields at once" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-136">
+          <mxGeometry x="10" y="60" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="be_BAzCO2mw0nIDdy5Vo-124" value="Solution" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="810" y="1310" width="60" height="30" as="geometry" />
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-122" value="Fields present on only small set of documents" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-136">
+          <mxGeometry x="10" y="90" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="be_BAzCO2mw0nIDdy5Vo-125" value="Break the field /value into sub document&amp;nbsp; with&lt;br&gt;fieldA: key&lt;br&gt;fieldB: value" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="1">
-          <mxGeometry x="820" y="1350" width="190" height="30" as="geometry" />
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-124" value="Solution" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontStyle=1" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-136">
+          <mxGeometry x="220" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="be_BAzCO2mw0nIDdy5Vo-126" value="Example:&amp;nbsp;&lt;br&gt;{&quot;size&quot; : 40, &quot;color&quot;: &quot;blue&quot;}&lt;br&gt;{[{&quot;k&quot;: &quot;size&quot;, &quot;v&quot;: 40}, {&quot;k&quot; : &quot;color&quot;, &quot;v&quot;: &quot;blue&quot;}]}" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="1">
-          <mxGeometry x="820" y="1400" width="270" height="30" as="geometry" />
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-125" value="Break the field /value into sub document&amp;nbsp; with&lt;br&gt;fieldA: key&lt;br&gt;fieldB: value" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-136">
+          <mxGeometry x="230" y="40" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="be_BAzCO2mw0nIDdy5Vo-127" value="Use cases examples" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="590" y="1450" width="110" height="30" as="geometry" />
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-126" value="Example:&amp;nbsp;&lt;br&gt;{&quot;size&quot; : 40, &quot;color&quot;: &quot;blue&quot;}&lt;br&gt;{[{&quot;k&quot;: &quot;size&quot;, &quot;v&quot;: 40}, {&quot;k&quot; : &quot;color&quot;, &quot;v&quot;: &quot;blue&quot;}]}" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-136">
+          <mxGeometry x="230" y="90" width="270" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="be_BAzCO2mw0nIDdy5Vo-128" value="Characteristics of a product" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="1">
-          <mxGeometry x="600" y="1480" width="150" height="30" as="geometry" />
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-127" value="Use cases examples" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontStyle=1" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-136">
+          <mxGeometry y="140" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="be_BAzCO2mw0nIDdy5Vo-130" value="Set of fields all have the same value type" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="1">
-          <mxGeometry x="600" y="1500" width="200" height="30" as="geometry" />
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-128" value="Characteristics of a product" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-136">
+          <mxGeometry x="10" y="170" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="be_BAzCO2mw0nIDdy5Vo-131" value="Benefits and trade-offs" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="810" y="1450" width="110" height="30" as="geometry" />
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-130" value="Set of fields all have the same value type" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-136">
+          <mxGeometry x="10" y="190" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="be_BAzCO2mw0nIDdy5Vo-132" value="Easy to index" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="1">
-          <mxGeometry x="820" y="1480" width="150" height="30" as="geometry" />
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-131" value="Benefits and trade-offs" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontStyle=1" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-136">
+          <mxGeometry x="220" y="140" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="be_BAzCO2mw0nIDdy5Vo-133" value="Allow for non-deterministic field name" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="1">
-          <mxGeometry x="820" y="1500" width="230" height="30" as="geometry" />
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-132" value="Easy to index" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-136">
+          <mxGeometry x="230" y="170" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="be_BAzCO2mw0nIDdy5Vo-135" value="Ability to qualify the relationship of the original field and value" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="1">
-          <mxGeometry x="820" y="1520" width="230" height="30" as="geometry" />
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-133" value="Allow for non-deterministic field name" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-136">
+          <mxGeometry x="230" y="190" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-135" value="Ability to qualify the relationship of the original field and value" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-136">
+          <mxGeometry x="230" y="210" width="230" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
