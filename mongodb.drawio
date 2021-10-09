@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-09T02:54:31.142Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="B5GsqrMI4eouIsA9PeKG" version="15.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-09T02:55:20.971Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="Dc5z7OJ8b4kJylWhq_Lg" version="15.4.3" type="github">
   <diagram id="vCIeHMtV7OoR4bKzs3Se" name="Page-1">
     <mxGraphModel dx="3009" dy="1942" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -293,6 +293,15 @@
         </mxCell>
         <mxCell id="be_BAzCO2mw0nIDdy5Vo-101" value="1 : ascending&lt;br&gt;-1 : descending&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-975" y="-940" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-106" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;" edge="1" parent="1" source="be_BAzCO2mw0nIDdy5Vo-104" target="be_BAzCO2mw0nIDdy5Vo-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-104" value="Indexes" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="-1070" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-105" value="db.trips.createIndex({ &quot;start station id&quot;: 1, &quot;birth year&quot;: 1 })" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-730" y="-1070" width="350" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
