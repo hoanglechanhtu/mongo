@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-09T02:37:50.822Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="JE61o3yidG1EKfk7NQ8O" version="15.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-09T02:48:35.016Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="ZdKL2eCiJcFzj4ECK8HV" version="15.4.3" type="github">
   <diagram id="vCIeHMtV7OoR4bKzs3Se" name="Page-1">
     <mxGraphModel dx="3009" dy="1942" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -127,6 +127,21 @@
         <mxCell id="be_BAzCO2mw0nIDdy5Vo-59" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;" edge="1" parent="1" source="be_BAzCO2mw0nIDdy5Vo-40" target="be_BAzCO2mw0nIDdy5Vo-58">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-65" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;" edge="1" parent="1" source="be_BAzCO2mw0nIDdy5Vo-40" target="be_BAzCO2mw0nIDdy5Vo-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-69" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;" edge="1" parent="1" source="be_BAzCO2mw0nIDdy5Vo-40" target="be_BAzCO2mw0nIDdy5Vo-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-73" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;" edge="1" parent="1" source="be_BAzCO2mw0nIDdy5Vo-40" target="be_BAzCO2mw0nIDdy5Vo-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-77" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;" edge="1" parent="1" source="be_BAzCO2mw0nIDdy5Vo-40" target="be_BAzCO2mw0nIDdy5Vo-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-85" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;" edge="1" parent="1" source="be_BAzCO2mw0nIDdy5Vo-40" target="be_BAzCO2mw0nIDdy5Vo-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="be_BAzCO2mw0nIDdy5Vo-40" value="Commands" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#d5739d;fillColor=#e6d0de;strokeColor=#996185;" vertex="1" parent="1">
           <mxGeometry x="20" y="600" width="140" height="60" as="geometry" />
         </mxCell>
@@ -179,6 +194,57 @@
         </mxCell>
         <mxCell id="be_BAzCO2mw0nIDdy5Vo-62" value="db.inspections.deleteOne({ &quot;test&quot;: 3 })" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-827" y="1120" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-67" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;" edge="1" parent="1" source="be_BAzCO2mw0nIDdy5Vo-64" target="be_BAzCO2mw0nIDdy5Vo-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-64" value="Comparison" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="460" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-66" value="db.trips.find({ &quot;tripduration&quot;: { &quot;$lte&quot; : 70 },&#xa;                &quot;usertype&quot;: { &quot;$ne&quot;: &quot;Subscriber&quot; } }).pretty()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-670" y="460" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-71" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;" edge="1" parent="1" source="be_BAzCO2mw0nIDdy5Vo-68" target="be_BAzCO2mw0nIDdy5Vo-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-68" value="Logic" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="300" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-70" value="db.routes.find({ &quot;$and&quot;: [ { &quot;$or&quot; :[ { &quot;dst_airport&quot;: &quot;KZN&quot; },&#xa;                                    { &quot;src_airport&quot;: &quot;KZN&quot; }&#xa;                                  ] },&#xa;                          { &quot;$or&quot; :[ { &quot;airplane&quot;: &quot;CR2&quot; },&#xa;                                     { &quot;airplane&quot;: &quot;A81&quot; } ] }&#xa;                         ]}).pretty()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-750" y="280" width="370" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-75" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;" edge="1" parent="1" source="be_BAzCO2mw0nIDdy5Vo-72" target="be_BAzCO2mw0nIDdy5Vo-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-72" value="Expressive" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="140" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-74" value="db.trips.find({ &quot;$expr&quot;: { &quot;$and&quot;: [ { &quot;$gt&quot;: [ &quot;$tripduration&quot;, 1200 ]},&#xa;                         { &quot;$eq&quot;: [ &quot;$end station id&quot;, &quot;$start station id&quot; ]}&#xa;                       ]}}).count()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-750" y="120" width="370" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-79" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;" edge="1" parent="1" source="be_BAzCO2mw0nIDdy5Vo-76" target="be_BAzCO2mw0nIDdy5Vo-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-81" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;" edge="1" parent="1" source="be_BAzCO2mw0nIDdy5Vo-76" target="be_BAzCO2mw0nIDdy5Vo-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-76" value="Array" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="-10" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-78" value="push()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-510" y="-10" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-80" value="db.listingsAndReviews.find({ &quot;amenities&quot;: {&#xa;                                  &quot;$size&quot;: 20,&#xa;                                  &quot;$all&quot;: [ &quot;Internet&quot;, &quot;Wifi&quot;,  &quot;Kitchen&quot;,&#xa;                                           &quot;Heating&quot;, &quot;Family/kid friendly&quot;,&#xa;                                           &quot;Washer&quot;, &quot;Dryer&quot;, &quot;Essentials&quot;,&#xa;                                           &quot;Shampoo&quot;, &quot;Hangers&quot;,&#xa;                                           &quot;Hair dryer&quot;, &quot;Iron&quot;,&#xa;                                           &quot;Laptop friendly workspace&quot; ]&#xa;                                         }&#xa;                            }).pretty()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-730" y="-250" width="360" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-84" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;" edge="1" parent="1" source="be_BAzCO2mw0nIDdy5Vo-82" target="be_BAzCO2mw0nIDdy5Vo-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-82" value="Projection" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="-360" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-83" value="db.collections.find({&quot;state&quot; : &quot;NY&quot;}, {&quot;state&quot;: 1});" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-620" y="-360" width="230" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
