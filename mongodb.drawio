@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-09T02:50:14.519Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="L5CukD6bTamyajWmG24e" version="15.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-09T02:52:01.348Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="jDnwxUttjX182cjTLEC7" version="15.4.3" type="github">
   <diagram id="vCIeHMtV7OoR4bKzs3Se" name="Page-1">
     <mxGraphModel dx="3009" dy="1942" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -257,6 +257,21 @@
         </mxCell>
         <mxCell id="be_BAzCO2mw0nIDdy5Vo-88" value="db.companies.find({ &quot;relationships.0.person.last_name&quot;: &quot;Zuckerberg&quot; },&#xa;                  { &quot;name&quot;: 1 }).pretty()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-700" y="-520" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-93" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;" edge="1" parent="1" source="be_BAzCO2mw0nIDdy5Vo-90" target="be_BAzCO2mw0nIDdy5Vo-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-95" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;" edge="1" parent="1" source="be_BAzCO2mw0nIDdy5Vo-90" target="be_BAzCO2mw0nIDdy5Vo-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-90" value="Aggregate" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="-650" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-92" value="db.listingsAndReviews.aggregate([&#xa;                                  { &quot;$match&quot;: { &quot;amenities&quot;: &quot;Wifi&quot; } },&#xa;                                  { &quot;$project&quot;: { &quot;price&quot;: 1,&#xa;                                                  &quot;address&quot;: 1,&#xa;                                                  &quot;_id&quot;: 0 }}]).pretty()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-710" y="-670" width="340" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-94" value="db.listingsAndReviews.aggregate([&#xa;                                  { &quot;$project&quot;: { &quot;address&quot;: 1, &quot;_id&quot;: 0 }},&#xa;                                  { &quot;$group&quot;: { &quot;_id&quot;: &quot;$address.country&quot;,&#xa;                                                &quot;count&quot;: { &quot;$sum&quot;: 1 } } }&#xa;                                ])" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-710" y="-830" width="340" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
