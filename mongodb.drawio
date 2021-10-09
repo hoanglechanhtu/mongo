@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-09T05:13:33.730Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="i9xnpPWNUnvJi9XUpvAI" version="15.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-09T05:14:10.223Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="mTvCB350WvBuJT7b3Kiu" version="15.4.3" type="github">
   <diagram id="vCIeHMtV7OoR4bKzs3Se" name="Page-1">
-    <mxGraphModel dx="2813" dy="2962" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3640" dy="2962" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -686,6 +686,66 @@
           <mxGeometry x="226" y="100" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="be_BAzCO2mw0nIDdy5Vo-307" value="Dont want to update all documents" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-288">
+          <mxGeometry x="10" y="110" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-328" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;" edge="1" parent="1" source="be_BAzCO2mw0nIDdy5Vo-309" target="be_BAzCO2mw0nIDdy5Vo-314">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-309" value="Tree pattern" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-1870" y="1450" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-310" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-2050" y="1600" width="500" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-311" value="" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;fontFamily=Verdana;dx=220;dy=140;" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-310">
+          <mxGeometry width="500" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-312" value="Problem" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontStyle=1" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-310">
+          <mxGeometry width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-313" value="Avoid downtime while doing schema upgrades" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-310">
+          <mxGeometry x="10" y="30" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-314" value="Solution" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontStyle=1" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-310">
+          <mxGeometry x="220" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-315" value="Each document gets a &quot;schema_version&quot; field" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-310">
+          <mxGeometry x="226" y="30" width="234" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-316" value="Application can handle all versions" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-310">
+          <mxGeometry x="226" y="60" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-317" value="Use cases examples" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontStyle=1" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-310">
+          <mxGeometry y="140" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-318" value="Every application that use a database" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-310">
+          <mxGeometry x="10" y="170" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-319" value="System with a lot of legacy data" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-310">
+          <mxGeometry x="10" y="200" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-320" value="Benefits and trade-offs" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontStyle=1" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-310">
+          <mxGeometry x="220" y="140" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-321" value="No downtime needed" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-310">
+          <mxGeometry x="230" y="170" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-322" value="Feel in control of the migaration" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-310">
+          <mxGeometry x="230" y="200" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-323" value="Less future technical debt" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-310">
+          <mxGeometry x="230" y="220" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-324" value="Upgrading all documents can take hours days or even weeks when dealing with big data" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-310">
+          <mxGeometry x="10" y="70" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-325" value="May need 2 indexes for same field while in migration period" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-310">
+          <mxGeometry x="230" y="250" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-326" value="Choose your strategy to migrate the documents" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-310">
+          <mxGeometry x="226" y="100" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="be_BAzCO2mw0nIDdy5Vo-327" value="Dont want to update all documents" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="be_BAzCO2mw0nIDdy5Vo-310">
           <mxGeometry x="10" y="110" width="200" height="30" as="geometry" />
         </mxCell>
       </root>
