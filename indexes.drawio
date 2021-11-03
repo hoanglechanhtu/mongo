@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-03T14:50:10.857Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="zPQgShVlkJg_kK5CakQ_" version="15.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-03T15:00:41.747Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="NTeTXOB2oxjUEJlrQAEq" version="15.6.6" type="github">
   <diagram id="x9PyTD_l7O7jyfFpbdGn" name="Page-1">
     <mxGraphModel dx="1539" dy="1935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -30,6 +30,22 @@
             <Array as="points">
               <mxPoint x="60" y="210" />
               <mxPoint x="60" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wirbpDm7MOYZDWqs8vUN-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="wirbpDm7MOYZDWqs8vUN-2" target="wirbpDm7MOYZDWqs8vUN-57">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="210" />
+              <mxPoint x="60" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wirbpDm7MOYZDWqs8vUN-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="wirbpDm7MOYZDWqs8vUN-2" target="wirbpDm7MOYZDWqs8vUN-65">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="210" />
+              <mxPoint x="60" y="570" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -160,6 +176,45 @@
         </mxCell>
         <mxCell id="wirbpDm7MOYZDWqs8vUN-55" value="quickly narrow search space to a much smaller result-set" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="-355" y="-120" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="wirbpDm7MOYZDWqs8vUN-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="wirbpDm7MOYZDWqs8vUN-57" target="wirbpDm7MOYZDWqs8vUN-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wirbpDm7MOYZDWqs8vUN-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="wirbpDm7MOYZDWqs8vUN-57" target="wirbpDm7MOYZDWqs8vUN-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wirbpDm7MOYZDWqs8vUN-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="wirbpDm7MOYZDWqs8vUN-57" target="wirbpDm7MOYZDWqs8vUN-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wirbpDm7MOYZDWqs8vUN-57" value="When to not index" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wirbpDm7MOYZDWqs8vUN-59" value="Small collections" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wirbpDm7MOYZDWqs8vUN-61" value="Small documents" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wirbpDm7MOYZDWqs8vUN-63" value="Nonselective queries" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wirbpDm7MOYZDWqs8vUN-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="wirbpDm7MOYZDWqs8vUN-65" target="wirbpDm7MOYZDWqs8vUN-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wirbpDm7MOYZDWqs8vUN-65" value="Unique index" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wirbpDm7MOYZDWqs8vUN-67" value="createIndex({}, {&quot;unique&quot;: true}" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wirbpDm7MOYZDWqs8vUN-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="wirbpDm7MOYZDWqs8vUN-69" target="wirbpDm7MOYZDWqs8vUN-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wirbpDm7MOYZDWqs8vUN-69" value="Partial index" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wirbpDm7MOYZDWqs8vUN-70" value="createIndex({}, {&quot;unique&quot;: true, &quot;partialFilterExpression&quot;:&amp;nbsp; {&quot;email&quot; : {$exists: true}}}" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="670" width="380" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
