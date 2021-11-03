@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-03T14:40:18.974Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="SNvV05w7Bt2C0W08cWgM" version="15.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-03T14:46:02.126Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="sTZypP-lRfNrun8qY4aF" version="15.6.6" type="github">
   <diagram id="x9PyTD_l7O7jyfFpbdGn" name="Page-1">
     <mxGraphModel dx="712" dy="1935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -20,6 +20,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wirbpDm7MOYZDWqs8vUN-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="wirbpDm7MOYZDWqs8vUN-2" target="wirbpDm7MOYZDWqs8vUN-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wirbpDm7MOYZDWqs8vUN-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="wirbpDm7MOYZDWqs8vUN-2" target="wirbpDm7MOYZDWqs8vUN-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wirbpDm7MOYZDWqs8vUN-2" value="Indexes" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
@@ -107,6 +110,15 @@
         </mxCell>
         <mxCell id="wirbpDm7MOYZDWqs8vUN-36" value="$nin" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wirbpDm7MOYZDWqs8vUN-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="wirbpDm7MOYZDWqs8vUN-39" target="wirbpDm7MOYZDWqs8vUN-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wirbpDm7MOYZDWqs8vUN-39" value="Array index" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="510" y="-330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wirbpDm7MOYZDWqs8vUN-40" value="every element&amp;nbsp; will be a record point to document in the index" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="710" y="-330" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
