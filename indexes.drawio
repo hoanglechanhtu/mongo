@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-03T14:32:03.870Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="5W5n97bPCD_Td0UZf9mh" version="15.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-03T14:40:18.974Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="SNvV05w7Bt2C0W08cWgM" version="15.6.6" type="github">
   <diagram id="x9PyTD_l7O7jyfFpbdGn" name="Page-1">
-    <mxGraphModel dx="859" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="712" dy="1935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,6 +14,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wirbpDm7MOYZDWqs8vUN-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=default;" edge="1" parent="1" source="wirbpDm7MOYZDWqs8vUN-2" target="wirbpDm7MOYZDWqs8vUN-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wirbpDm7MOYZDWqs8vUN-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="wirbpDm7MOYZDWqs8vUN-2" target="wirbpDm7MOYZDWqs8vUN-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wirbpDm7MOYZDWqs8vUN-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="wirbpDm7MOYZDWqs8vUN-2" target="wirbpDm7MOYZDWqs8vUN-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wirbpDm7MOYZDWqs8vUN-2" value="Indexes" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
@@ -39,6 +45,9 @@
         <mxCell id="wirbpDm7MOYZDWqs8vUN-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="wirbpDm7MOYZDWqs8vUN-9" target="wirbpDm7MOYZDWqs8vUN-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="wirbpDm7MOYZDWqs8vUN-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="wirbpDm7MOYZDWqs8vUN-9" target="wirbpDm7MOYZDWqs8vUN-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="wirbpDm7MOYZDWqs8vUN-9" value="find student_id &amp;gt; 500000 and class_id = 54" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="700" y="600" width="120" height="60" as="geometry" />
         </mxCell>
@@ -59,6 +68,45 @@
         </mxCell>
         <mxCell id="wirbpDm7MOYZDWqs8vUN-21" value="find index with class_id = 54 and get all student with student_id &amp;gt; 500000" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="920" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wirbpDm7MOYZDWqs8vUN-23" value="hint to suggest index" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="700" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wirbpDm7MOYZDWqs8vUN-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="wirbpDm7MOYZDWqs8vUN-25" target="wirbpDm7MOYZDWqs8vUN-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wirbpDm7MOYZDWqs8vUN-25" value="Covered index" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="510" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wirbpDm7MOYZDWqs8vUN-27" value="looking for the fields that are all included in the index" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="710" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wirbpDm7MOYZDWqs8vUN-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="wirbpDm7MOYZDWqs8vUN-29" target="wirbpDm7MOYZDWqs8vUN-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wirbpDm7MOYZDWqs8vUN-29" value="$operator" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="510" y="-120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wirbpDm7MOYZDWqs8vUN-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="wirbpDm7MOYZDWqs8vUN-31" target="wirbpDm7MOYZDWqs8vUN-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wirbpDm7MOYZDWqs8vUN-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="wirbpDm7MOYZDWqs8vUN-31" target="wirbpDm7MOYZDWqs8vUN-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wirbpDm7MOYZDWqs8vUN-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="wirbpDm7MOYZDWqs8vUN-31" target="wirbpDm7MOYZDWqs8vUN-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wirbpDm7MOYZDWqs8vUN-31" value="inefficient" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="710" y="-120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wirbpDm7MOYZDWqs8vUN-33" value="$ne" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="910" y="-120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wirbpDm7MOYZDWqs8vUN-35" value="$not" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="910" y="-220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wirbpDm7MOYZDWqs8vUN-36" value="$nin" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="910" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
