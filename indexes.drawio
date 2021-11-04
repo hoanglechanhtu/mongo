@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-04T14:04:37.940Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="X7qoCNRNfKEscDDXetXb" version="15.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-04T14:07:01.420Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="kDko5MkRc83Gxor7cS83" version="15.6.8" type="github">
   <diagram id="x9PyTD_l7O7jyfFpbdGn" name="Page-1">
     <mxGraphModel dx="2640" dy="2070" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -362,6 +362,33 @@
         </mxCell>
         <mxCell id="LC0DRSvPRicTg7k94NOp-48" value="&lt;div&gt;db.runCommand({&quot;convertToCapped&quot; : &quot;test&quot;, &quot;size&quot; : 10000});&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1410" y="1790" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LC0DRSvPRicTg7k94NOp-53" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LC0DRSvPRicTg7k94NOp-50" target="LC0DRSvPRicTg7k94NOp-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LC0DRSvPRicTg7k94NOp-55" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LC0DRSvPRicTg7k94NOp-50" target="LC0DRSvPRicTg7k94NOp-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LC0DRSvPRicTg7k94NOp-50" value="Tailable cursors" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-860" y="1520" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LC0DRSvPRicTg7k94NOp-57" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LC0DRSvPRicTg7k94NOp-52" target="LC0DRSvPRicTg7k94NOp-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LC0DRSvPRicTg7k94NOp-52" value="inspired by tail -f" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-880" y="1370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LC0DRSvPRicTg7k94NOp-59" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LC0DRSvPRicTg7k94NOp-54" target="LC0DRSvPRicTg7k94NOp-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LC0DRSvPRicTg7k94NOp-54" value="work with capped collections" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1040" y="1530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LC0DRSvPRicTg7k94NOp-56" value="will not die when run out of results" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-680" y="1370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LC0DRSvPRicTg7k94NOp-58" value="normal collections does not track insert order" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1040" y="1670" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
