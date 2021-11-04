@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-04T14:02:56.387Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="nVpo87RL5rXEvwsGRfap" version="15.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-04T14:04:37.940Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="X7qoCNRNfKEscDDXetXb" version="15.6.8" type="github">
   <diagram id="x9PyTD_l7O7jyfFpbdGn" name="Page-1">
-    <mxGraphModel dx="2352" dy="1807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2640" dy="2070" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -329,6 +329,39 @@
         </mxCell>
         <mxCell id="LC0DRSvPRicTg7k94NOp-37" value="&lt;div&gt;db.articles.find({$text: {$search: &quot;\&quot;impact crater\&quot; lunar&quot;}},&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;{title: 1, score: {$meta: &quot;textScore&quot;}}&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;).sort({score: {$meta: &quot;textScore&quot;}})&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="414" y="1480" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="LC0DRSvPRicTg7k94NOp-41" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LC0DRSvPRicTg7k94NOp-39" target="LC0DRSvPRicTg7k94NOp-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LC0DRSvPRicTg7k94NOp-43" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LC0DRSvPRicTg7k94NOp-39" target="LC0DRSvPRicTg7k94NOp-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LC0DRSvPRicTg7k94NOp-47" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LC0DRSvPRicTg7k94NOp-39" target="LC0DRSvPRicTg7k94NOp-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LC0DRSvPRicTg7k94NOp-39" value="Capped collections" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-860" y="1780" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LC0DRSvPRicTg7k94NOp-40" value="Fixed size" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-530" y="1790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LC0DRSvPRicTg7k94NOp-45" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LC0DRSvPRicTg7k94NOp-42" target="LC0DRSvPRicTg7k94NOp-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LC0DRSvPRicTg7k94NOp-42" value="db.createCollection(&quot;my_collection&quot;, {&quot;capped&quot; : true, &quot;size&quot; : 100000})" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-940" y="1950" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LC0DRSvPRicTg7k94NOp-44" value="&lt;div&gt;db.createCollection(&quot;my_collection2&quot;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; {&quot;capped&quot; : true, &quot;size&quot; : 100000, &quot;max&quot; : 100});&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-935" y="2090" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LC0DRSvPRicTg7k94NOp-49" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LC0DRSvPRicTg7k94NOp-46" target="LC0DRSvPRicTg7k94NOp-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LC0DRSvPRicTg7k94NOp-46" value="convert to capped collection" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1040" y="1790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LC0DRSvPRicTg7k94NOp-48" value="&lt;div&gt;db.runCommand({&quot;convertToCapped&quot; : &quot;test&quot;, &quot;size&quot; : 10000});&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1410" y="1790" width="290" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
